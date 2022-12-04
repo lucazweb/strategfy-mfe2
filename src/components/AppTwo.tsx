@@ -2,8 +2,8 @@ import React from "react";
 
 const AppTwo: React.FC = () => {
   return (
-    <header>
-      <h1>Header App2</h1>{" "}
+    <header data-testid="app2">
+      <h1>Strategfy Web App # MFE 2</h1>
     </header>
   );
 };
